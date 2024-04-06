@@ -87,7 +87,7 @@ nav ul li a{
 .contener{
     background-color:#777777;
     width: 100%;
-    height: 500px;
+    height: 440px;
     font-family: "Rubik", sans-serif;
     font-weight: 450;
 }
@@ -101,7 +101,6 @@ nav ul li a{
 .pic{
     position: absolute;
     right: 5px;
-    bottom: 15px;
     justify-content: center;
 }
 
@@ -116,24 +115,44 @@ nav ul li a{
 .main{
     width: 100%;
     height: 300px;
-    background-color: #cac7c7;
+    background-color: #699FA4;
+   
 }
 .dp img{
-    width: 320px ;
-    height : 375px;
+    width: 250px ;
+    height : 300px;
     float:left;
     
 }
-.intro{
-    position: absolute;
-    justify-content: center;
-    right: 100px;
-    height: 400px;
-    width: 600px;
-}
+
 .dp{
     position: absolute;
-    left: 5px;
-    justify-content: center;
+    left: 200px;
    
+}
+.intro{
+    float: right;
+    position: absolute;
+    
+    justify-content: center;
+    right: 100px;
+    width: 35%;
+}
+.contact{
+    width: 100%;
+    height: 100px;
+}
+.connect{
+    
+    width: 100px;
+    height: 50px;
+    float: left;
+    left: 50px;
+
+}
+.follow{
+       float: right;
+       right: 20px;
+       width: 50px;
+       height: 50px;
 }
