@@ -199,4 +199,43 @@ nav ul li a{
     text-decoration: underline;
 }
  
- 
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .info h3 {
+        font-size: 24px;
+    }
+
+    .info h1 {
+        font-size: 32px;
+    }
+
+    .pic {
+        margin-top: 250px; /* Adjust this value to move the image down */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about_content {
+        margin: 20px 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .social {
+        margin-bottom: 20px;
+    }
+}
