@@ -212,3 +212,52 @@ nav ul li a {
         margin-top: 20px;
     }
 }
+
+.certificate {
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .box {
+    width: calc(30% - 40px); /* Adjusted width to increase the gap */
+    background-color: #777777;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px; /* Increased margin to create more gap */
+  }
+
+  .box:last-child {
+    margin-right: 0; /* Remove margin from the last box */
+  }
+
+  .box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .text-content {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .box {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+  }
