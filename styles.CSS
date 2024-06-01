@@ -30,7 +30,6 @@ nav ul {
     float: right;
     margin-right: 20px;
 }
-
 nav ul li {
     display: inline-block;
     line-height: 50px;
@@ -52,6 +51,7 @@ nav ul li a {
     margin-right: 20px;
     cursor: pointer;
 }
+ 
 #check{
     display: none;
 }
