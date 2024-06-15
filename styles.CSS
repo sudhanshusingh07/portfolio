@@ -100,7 +100,7 @@ nav ul li a {
 }
 
 .container {
-    background-image: url("./img/background_img1.jpg");
+    background-image: url("background_img1.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
