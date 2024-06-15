@@ -13,7 +13,7 @@ nav {
     height: 50px;
     width: 100%;
     position: fixed;
-    background-color: #699FA4;
+    background-color: #05142c;
     z-index: 99;
 }
 
@@ -22,7 +22,7 @@ nav label.logo {
     line-height: 50px;
     padding: 0 20px;
     font-weight: bold;
-    color: #3d2020;
+    color: #f37021;
     cursor: pointer;
 }
 
@@ -38,9 +38,12 @@ nav ul li {
 
 nav ul li a {
     font-weight: 400;
-    color: #3d2020;
+    color: white;
     font-size: 17px;
     text-decoration: none;
+}
+.home{
+    color: #f37021;
 }
 
 .checkbtn {
@@ -97,7 +100,9 @@ nav ul li a {
 }
 
 .container {
-    background-color: #777777;
+    background-image: url("./img/background_img1.jpg");
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 500px;
     display: flex;
